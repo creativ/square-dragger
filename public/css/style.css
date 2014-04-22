@@ -1,0 +1,9 @@
+.board {
+    margin-top: 10px;
+    border: 1px solid red;
+}
+
+.content {
+    width: 1000px;
+    margin: 10px auto;
+}

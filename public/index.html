@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="content">
+        <button class="pure-button pure-button-primary" id="newSquare">Create square</button>
+        <svg class="board" id="shapes_deck" width="1000" height="700" version="1" xmlns="http://www.w3.org/2000/svg">
+            <rect id='BackDrop' x='-10%' y='-10%' width='110%' height='110%' fill='none' pointer-events='all' />
+        </svg>
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/core/base.js"></script>
+    <script src="/js/actions/draggable.js"></script>
+    <script src="/js/objects/square.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
